@@ -30,12 +30,12 @@ function prependKitten(name){
   return newKittens;
 }
 
-function removeLastDriver(){
+function removeLastKitten(){
   const newKittens = kittens.slice(0, drivers.length-1)
   return newKittens;
 };
 
-function removeFirstDriver(){
+function removeFirstKitten(){
   const newKittens = kittens.slice(1);
   return newKittens;
 }
