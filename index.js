@@ -31,11 +31,11 @@ function prependKitten(name){
 }
 
 function removeLastDriver(){
-  const newKittens = drivers.slice(0, drivers.length-1)
+  const newKittens = kittens.slice(0, drivers.length-1)
   return newKittens;
 };
 
 function removeFirstDriver(){
-  const newKittens = drivers.slice(1);
+  const newKittens = kittens.slice(1);
   return newKittens;
 }
