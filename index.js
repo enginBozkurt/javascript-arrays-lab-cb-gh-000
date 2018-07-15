@@ -21,12 +21,12 @@ function destructivelyRemoveFirstKitten(name){
 }
 
 function appendKitten(name){
-  const newKittens = [...drivers, name];
+  const newKittens = [...kittens, name];
   return newKittens;
 };
 
 function prependKitten(name){
-  const newKittens = [name, ...drivers];
+  const newKittens = [name, ...kittens];
   return newKittens;
 }
 
