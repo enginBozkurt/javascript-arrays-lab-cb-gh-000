@@ -19,3 +19,14 @@ function destructivelyRemoveFirstKitten(name){
   kittens.shift(name);
   return kittens;
 }
+
+function appendKitten(name){
+  const newKittens = [...drivers, name];
+  return newKittens;
+};
+
+function prependDriver(name){
+  const newKittens = [name, ...drivers];
+  return newKittens;
+}
+
