@@ -1,6 +1,8 @@
 const kittens = ['Milo', 'Otis', 'Garfield'];
 
-function destructivelyAppendDriver(name){
+function destructivelyAppendKitten(name){
   drivers.push(name);
   return kittens;
 };
+
+
