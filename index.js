@@ -31,7 +31,7 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  const newKittens = kittens.slice(0, drivers.length-1)
+  const newKittens = kittens.slice(0, kittens.length-1)
   return newKittens;
 };
 
