@@ -25,8 +25,17 @@ function appendKitten(name){
   return newKittens;
 };
 
-function prependDriver(name){
+function prependKitten(name){
   const newKittens = [name, ...drivers];
   return newKittens;
 }
 
+function removeLastDriver(){
+  const newKittens = drivers.slice(0, drivers.length-1)
+  return newKittens;
+};
+
+function removeFirstDriver(){
+  const newKittens = drivers.slice(1);
+  return newKittens;
+}
