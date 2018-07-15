@@ -1,4 +1,4 @@
-const kittens = ['Milo', 'Otis', 'Garfield'];
+var kittens = ['Milo', 'Otis', 'Garfield'];
 
 function destructivelyAppendKitten(name){
   kittens.push(name);
@@ -15,3 +15,7 @@ function destructivelyRemoveLastKitten(name){
   return kittens;
 }
 
+function destructivelyRemoveFirstKitten(name){
+  kittens.shift(name);
+  return kittens;
+}
